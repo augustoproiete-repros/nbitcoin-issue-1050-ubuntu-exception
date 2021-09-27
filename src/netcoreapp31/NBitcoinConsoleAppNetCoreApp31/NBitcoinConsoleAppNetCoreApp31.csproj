@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NBitcoin" Version="6.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\global.json" Link="" />
+    <None Include="..\run.*" Link="" />
+  </ItemGroup>
+
+</Project>

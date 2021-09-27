@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "asset", "asset", "{7EC5A420-209B-4ECB-A5B3-F783F2F1CB79}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CODEOWNERS = CODEOWNERS
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4CE1921C-E927-4982-91C9-3158CE55561F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net50", "net50", "{BEDE9280-C09A-4185-BDA6-382628133475}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netcoreapp31", "netcoreapp31", "{E56E02DF-307A-4896-AA43-40C285C87B6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBitcoinConsoleAppNet50", "src\net50\NBitcoinConsoleAppNet50\NBitcoinConsoleAppNet50.csproj", "{52951315-ABE1-467B-92AE-149CC4B8BAA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBitcoinConsoleAppNetCoreApp31", "src\netcoreapp31\NBitcoinConsoleAppNetCoreApp31\NBitcoinConsoleAppNetCoreApp31.csproj", "{6A1FAAA4-85A5-43D4-8291-4E2C4B9AEA5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52951315-ABE1-467B-92AE-149CC4B8BAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52951315-ABE1-467B-92AE-149CC4B8BAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52951315-ABE1-467B-92AE-149CC4B8BAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52951315-ABE1-467B-92AE-149CC4B8BAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1FAAA4-85A5-43D4-8291-4E2C4B9AEA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1FAAA4-85A5-43D4-8291-4E2C4B9AEA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1FAAA4-85A5-43D4-8291-4E2C4B9AEA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1FAAA4-85A5-43D4-8291-4E2C4B9AEA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEDE9280-C09A-4185-BDA6-382628133475} = {4CE1921C-E927-4982-91C9-3158CE55561F}
+		{E56E02DF-307A-4896-AA43-40C285C87B6E} = {4CE1921C-E927-4982-91C9-3158CE55561F}
+		{52951315-ABE1-467B-92AE-149CC4B8BAA3} = {BEDE9280-C09A-4185-BDA6-382628133475}
+		{6A1FAAA4-85A5-43D4-8291-4E2C4B9AEA5D} = {E56E02DF-307A-4896-AA43-40C285C87B6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F8F8963-6C05-4F18-8764-30EAB8165705}
+	EndGlobalSection
+EndGlobal
